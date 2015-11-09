@@ -20,14 +20,9 @@ wiki - https://ru.wikipedia.org/wiki/Разложение_Холецкого
 
 Также содержит методы:
 
-`double[][] Transpose(double[][]L)` - транспонирует матрицу
-
-`double determinant(double[][]A)` - находит детерминант
-
-`double[][] inverseA(double[][]A)` - находит обратную матрицу
-
-`double[] multiplyMatrixOnVector(double[][] A, double[] vector)` - умнажает матрицу на вектор
-
-`double[][] multiplyMatrixOnMatrix(double[][] A, double[][] B)` - умнажает матрицу на матрицу
-
-double[][] cofactor(double[][] A) - находит матрицу с минорами елементов матрицы А
+* `double[][] Transpose(double[][]L)` - транспонирует матрицу
+* `double determinant(double[][]A)` - находит детерминант
+* `double[][] inverseA(double[][]A)` - находит обратную матрицу
+*`double[] multiplyMatrixOnVector(double[][] A, double[] vector)` - умнажает матрицу на вектор
+*`double[][] multiplyMatrixOnMatrix(double[][] A, double[][] B)` - умнажает матрицу на матрицу
+*`double[][] cofactor(double[][] A)` - находит матрицу с минорами елементов матрицы А
