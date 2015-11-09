@@ -8,10 +8,8 @@ wiki - https://ru.wikipedia.org/wiki/Разложение_Холецкого
 Основной класс - `CholeskyDecomposition`
 
 содержит два основных метода:
-
-`double[][] cholesky( double[][]A)`
-
-`double[] FindeX(double[][] A, double[] B)`
+* `double[][] cholesky( double[][]A)`
+* `double[] FindeX(double[][] A, double[] B)`
 
 `cholesky( double[][]A )` - непосредственно раскладывать входную матрицу А методом Холецкого и возвращает результат, матрицу L.
 
@@ -23,6 +21,6 @@ wiki - https://ru.wikipedia.org/wiki/Разложение_Холецкого
 * `double[][] Transpose(double[][]L)` - транспонирует матрицу
 * `double determinant(double[][]A)` - находит детерминант
 * `double[][] inverseA(double[][]A)` - находит обратную матрицу
-*`double[] multiplyMatrixOnVector(double[][] A, double[] vector)` - умнажает матрицу на вектор
-*`double[][] multiplyMatrixOnMatrix(double[][] A, double[][] B)` - умнажает матрицу на матрицу
-*`double[][] cofactor(double[][] A)` - находит матрицу с минорами елементов матрицы А
+* `double[] multiplyMatrixOnVector(double[][] A, double[] vector)` - умнажает матрицу на вектор
+* `double[][] multiplyMatrixOnMatrix(double[][] A, double[][] B)` - умнажает матрицу на матрицу
+* `double[][] cofactor(double[][] A)` - находит матрицу с минорами елементов матрицы А
